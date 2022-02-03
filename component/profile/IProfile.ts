@@ -24,17 +24,17 @@ export declare namespace IProfile {
     /** ### 연락 수단 목록 */
     contact: Contact[];
     /** ### 공지 */
-    // notice: {
-    //   /** ### 공지 내용 */
-    //   title: string;
-    //   /**
-    //    * ### 공지 앞에 붙는 아이콘
-    //    *
-    //    * @type font-awesome type
-    //    * @see https://www.npmjs.com/package/@fortawesome/react-fontawesome
-    //    */
-    //   icon?: IconDefinition;
-    // };
+    notice: {
+      /** ### 공지 내용 */
+      title: string;
+      /**
+       * ### 공지 앞에 붙는 아이콘
+       *
+       * @type font-awesome type
+       * @see https://www.npmjs.com/package/@fortawesome/react-fontawesome
+       */
+      icon?: IconDefinition;
+    };
   }
 
   /**
