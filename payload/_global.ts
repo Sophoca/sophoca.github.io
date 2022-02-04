@@ -3,7 +3,7 @@ import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = "HSB's RESUME";
-const description = 'This is a web resume.';
+const description = '백엔드 개발자를 꿈꾸는 홍성빈입니다.';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -24,9 +24,9 @@ export const _global: IGlobal.Payload = {
       ],
       type: 'profile',
       profile: {
-        firstName: 'Lorem',
-        lastName: 'ipsum',
-        username: 'lorem',
+        firstName: 'Sungbeen',
+        lastName: 'Hong',
+        username: 'Sophoca',
         gender: 'male',
       },
     },
